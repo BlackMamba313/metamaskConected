@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "author": "Konstantinov.A",
   "private": true,
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "@chakra-ui/icons": "1.0.14",
     "@chakra-ui/react": "1.6.5",
