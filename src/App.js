@@ -1,7 +1,7 @@
 import React from "react";
 import {Grid,} from "@mui/material";
-import ButtonConnect from "../components/ButtonConnect";
-import AccountPopUp from "../components/AccountPopUp";
+import ButtonConnect from "./components/ButtonConnect";
+import AccountPopUp from "./components/AccountPopUp";
 
 function App() {
     const [open, setOpen] = React.useState(false);
