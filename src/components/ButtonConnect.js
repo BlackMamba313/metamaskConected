@@ -4,8 +4,8 @@ import { formatEther } from "@ethersproject/units";
 import Identification from "./Identification";
 
 const ButtonConnect = ({onClick}) => {
-    const { activateBrowserWallet, account, chainId } = useEthers();
-    const userBalance = useEtherBalance(account, { chainId })
+    const { activateBrowserWallet, account } = useEthers();
+    const userBalance = useEtherBalance(account)
 
     function handleConnectWallet() {
         activateBrowserWallet();
