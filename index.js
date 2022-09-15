@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './src/index.css';
+import App from './src/App';
+import reportWebVitals from './src/reportWebVitals';
 import {DAppProvider, Goerli, Mainnet} from "@usedapp/core";
 import { getDefaultProvider } from 'ethers'
 
